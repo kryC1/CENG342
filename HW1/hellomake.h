@@ -2,4 +2,4 @@
 example include file
 */
 
-void myPrintHelloMake(void);
+void myMatrixVectorMul(int rows, int cols, char* filename);
