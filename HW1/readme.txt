@@ -6,4 +6,6 @@ small matrix size: 156
 use the following commands for execution
 
 -make
--./hellomake 1056 156 output.txt
+-mpirun -n num_procs ./hellomake 1056 156 output.txt
+
+NOTE: Since my pc has 2 physical cores, i could only try with 1 and 2 cores.
